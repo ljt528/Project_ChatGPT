@@ -1,0 +1,328 @@
+let data = [{
+    "role": "system",
+    "content": "assistant는 친절한 답변가입니다."
+}, {
+    "role": "user",
+    "content": "약국에서 파는 감기약 알려줘"
+}, {
+    "role": "assistant",
+    "content": ""
+}, {
+    "role": "user",
+    "content": "약국에서 파는 고혈압약 알려줘"
+}, {
+    "role": "assistant",
+    "content": ""
+}, {
+    "role": "user",
+    "content": "약국에서 파는 구토약 알려줘"
+}, {
+    "role": "assistant",
+    "content": ""
+}, {
+    "role": "user",
+    "content": "약국에서 파는 기침약 알려줘"
+}, {
+    "role": "assistant",
+    "content": ""
+}, {
+    "role": "user",
+    "content": "약국에서 파는 날파리증약 알려줘"
+}, {
+    "role": "assistant",
+    "content": ""
+}, {
+    "role": "user",
+    "content": "약국에서 파는 비문증약 알려줘"
+}, {
+    "role": "assistant",
+    "content": ""
+}, {
+    "role": "user",
+    "content": "약국에서 파는 두통약 알려줘"
+}, {
+    "role": "assistant",
+    "content": ""
+}, {
+    "role": "user",
+    "content": "약국에서 파는 물집약 알려줘"
+}, {
+    "role": "assistant",
+    "content": ""
+}, {
+    "role": "user",
+    "content": "약국에서 파는 복통약 알려줘"
+}, {
+    "role": "assistant",
+    "content": ""
+}, {
+    "role": "user",
+    "content": "약국에서 파는 부정맥약 알려줘"
+}, {
+    "role": "assistant",
+    "content": ""
+}, {
+    "role": "user",
+    "content": "약국에서 파는 불면증약 알려줘"
+}, {
+    "role": "assistant",
+    "content": ""
+}, {
+    "role": "user",
+    "content": "약국에서 파는 비염약 알려줘"
+}, {
+    "role": "assistant",
+    "content": ""
+}, {
+    "role": "user",
+    "content": "약국에서 파는 설사약 알려줘"
+}, {
+    "role": "assistant",
+    "content": ""
+}, {
+    "role": "user",
+    "content": "약국에서 파는 스트레스약 알려줘"
+}, {
+    "role": "assistant",
+    "content": ""
+}, {
+    "role": "user",
+    "content": "약국에서 파는 알레르기약 알려줘"
+}, {
+    "role": "assistant",
+    "content": ""
+}, {
+    "role": "user",
+    "content": "약국에서 파는 어지럼증약 알려줘"
+}, {
+    "role": "assistant",
+    "content": ""
+}, {
+    "role": "user",
+    "content": "약국에서 파는 현기증약 알려줘"
+}, {
+    "role": "assistant",
+    "content": ""
+}, {
+    "role": "user",
+    "content": "약국에서 파는 구내염약 알려줘"
+}, {
+    "role": "assistant",
+    "content": ""
+}, {
+    "role": "user",
+    "content": "약국에서 파는 두드러기약 알려줘"
+}, {
+    "role": "assistant",
+    "content": ""
+}, {
+    "role": "user",
+    "content": "약국에서 파는 소독약 알려줘"
+}, {
+    "role": "assistant",
+    "content": ""
+}, {
+    "role": "user",
+    "content": "약국에서 파는 피임약 알려줘"
+}, {
+    "role": "assistant",
+    "content": ""
+}, {
+    "role": "user",
+    "content": "약국에서 파는 관절통약 알려줘"
+}, {
+    "role": "assistant",
+    "content": ""
+}, {
+    "role": "user",
+    "content": "약국에서 파는 치통약 알려줘"
+}, {
+    "role": "assistant",
+    "content": ""
+}, {
+    "role": "user",
+    "content": "약국에서 파는 생리통약 알려줘"
+}, {
+    "role": "assistant",
+    "content": ""
+}, {
+    "role": "user",
+    "content": "약국에서 파는 염증약 알려줘"
+}, {
+    "role": "assistant",
+    "content": ""
+}, {
+    "role": "user",
+    "content": "약국에서 파는 당뇨약 알려줘"
+}, {
+    "role": "assistant",
+    "content": ""
+}, {
+    "role": "user",
+    "content": "약국에서 파는 우울증약 알려줘"
+}, {
+    "role": "assistant",
+    "content": ""
+}, {
+    "role": "user",
+    "content": "약국에서 파는 탈모약 알려줘"
+}, {
+    "role": "assistant",
+    "content": ""
+}, {
+    "role": "user",
+    "content": "약국에서 파는 고지혈증약 알려줘"
+}, {
+    "role": "assistant",
+    "content": ""
+}, {
+    "role": "user",
+    "content": "약국에서 파는 저혈압약 알려줘"
+}, {
+    "role": "assistant",
+    "content": ""
+}, {
+    "role": "user",
+    "content": "약국에서 파는 소화제 알려줘"
+}, {
+    "role": "assistant",
+    "content": ""
+}, {
+    "role": "user",
+    "content": "약국에서 파는 소화불량약 알려줘"
+}, {
+    "role": "assistant",
+    "content": ""
+}, {
+    "role": "user",
+    "content": "약국에서 파는 화상약 알려줘"
+}, {
+    "role": "assistant",
+    "content": ""
+}, {
+    "role": "user",
+    "content": "약국에서 파는 흉터방지약 알려줘"
+}, {
+    "role": "assistant",
+    "content": ""
+}, {
+    "role": "user",
+    "content": "약국에서 파는 흉터연고 알려줘"
+}, {
+    "role": "assistant",
+    "content": ""
+}, {
+    "role": "user",
+    "content": "약국에서 파는 흉터약 알려줘"
+}, {
+    "role": "assistant",
+    "content": ""
+}, {
+    "role": "user",
+    "content": "약국에서 파는 여드름약 알려줘"
+}, {
+    "role": "assistant",
+    "content": ""
+}, {
+    "role": "user",
+    "content": "약국에서 파는 속쓰림약 알려줘"
+}, {
+    "role": "assistant",
+    "content": ""
+}, {
+    "role": "user",
+    "content": "약국에서 파는 숙취약 알려줘"
+}, {
+    "role": "assistant",
+    "content": ""
+}, {
+    "role": "user",
+    "content": "약국에서 파는 숙취해소제 알려줘"
+}, {
+    "role": "assistant",
+    "content": ""
+}, {
+    "role": "user",
+    "content": "약국에서 파는 근육통약 알려줘"
+}, {
+    "role": "assistant",
+    "content": ""
+}, {
+    "role": "user",
+    "content": "약국에서 파는 기미약 알려줘"
+}, {
+    "role": "assistant",
+    "content": ""
+}, {
+    "role": "user",
+    "content": "약국에서 파는 주근깨약 알려줘"
+}, {
+    "role": "assistant",
+    "content": ""
+}, {
+    "role": "user",
+    "content": "약국에서 파는 진통제 알려줘"
+}, {
+    "role": "assistant",
+    "content": ""
+}, {
+    "role": "user",
+    "content": "약국에서 파는 피부염약 알려줘"
+}, {
+    "role": "assistant",
+    "content": ""
+}, {
+    "role": "user",
+    "content": "약국에서 파는 자양강장제 알려줘"
+}, {
+    "role": "assistant",
+    "content": ""
+}, {
+    "role": "user",
+    "content": "약국에서 파는 결막염약 알려줘"
+}, {
+    "role": "assistant",
+    "content": ""
+}, {
+    "role": "user",
+    "content": "약국에서 파는 변비약 알려줘"
+}, {
+    "role": "assistant",
+    "content": ""
+}, {
+    "role": "user",
+    "content": "약국에서 파는 점안액 알려줘"
+}, {
+    "role": "assistant",
+    "content": ""
+}, {
+    "role": "user",
+    "content": "약국에서 파는 인공눈물 알려줘"
+}, {
+    "role": "assistant",
+    "content": ""
+}, {
+    "role": "user",
+    "content": "약국에서 파는 신경통약 알려줘"
+}, {
+    "role": "assistant",
+    "content": ""
+}, {
+    "role": "user",
+    "content": "약국에서 파는 찰과상약 알려줘"
+}, {
+    "role": "assistant",
+    "content": ""
+}, {
+    "role": "user",
+    "content": "약국에서 파는 간질환약 알려줘"
+}, {
+    "role": "assistant",
+    "content": ""
+}, {
+    "role": "user",
+    "content": "약국에서 파는 간기능장애약 알려줘"
+}, {
+    "role": "assistant",
+    "content": ""
+},]
