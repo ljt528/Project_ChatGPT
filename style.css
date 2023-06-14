@@ -1,0 +1,86 @@
+/* Reset default browser styles */
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* Set background color and font */
+body {
+  background-color: #f2f2f2;
+  font-family: Arial, sans-serif;
+}
+
+/* Container styles */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Card styles */
+.card {
+  width: 400px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+  background-color: #007bff;
+  color: #fff;
+  padding: 20px;
+  border-radius: 10px 10px 0 0;
+  font-size: 20px;
+  text-align: center; /* 가운데 정렬 */
+}
+
+.card-body {
+  padding: 20px;
+}
+
+.card-footer {
+  background-color: #f2f2f2;
+  padding: 20px;
+  border-top: 1px solid #ddd;
+  border-radius: 0 0 10px 10px;
+  display: flex; /* flexbox 사용 */
+  justify-content: flex-end; /* 오른쪽 정렬 */
+}
+
+/* Chat log styles */
+.chat-log {
+  height: 300px;
+  overflow-y: auto;
+}
+
+.chat-log li {
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* User input styles */
+.user-input {
+  display: flex;
+  align-items: center;
+}
+
+.user-input-form {
+  flex: 1;
+  display: flex;
+  margin-bottom: 0;
+}
+
+.user-message {
+  flex: 1;
+  padding: 10px;
+  border-radius: 5px 0 0 5px;
+  border: 1px solid #ccc;
+}
+
+.send-button {
+  border-radius: 0 5px 5px 0;
+}
