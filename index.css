@@ -1,17 +1,17 @@
-/* Reset default browser styles */
+/* browser styles : default값 */
 html,
 body {
   margin: 0;
   padding: 0;
 }
 
-/* Set background color and font */
+/* 배경, 폰트 */
 body {
   background-color: #f2f2f2;
   font-family: Arial, sans-serif;
 }
 
-/* Container styles */
+/* 컨테이너 */
 .container {
   display: flex;
   justify-content: center;
@@ -19,7 +19,7 @@ body {
   height: 100vh;
 }
 
-/* Card styles */
+/* 카드 스타일 */
 .card {
   width: 400px;
   border-radius: 10px;
@@ -44,11 +44,11 @@ body {
   padding: 20px;
   border-top: 1px solid #ddd;
   border-radius: 0 0 10px 10px;
-  display: flex; /* flexbox 사용 */
+  display: flex;
   justify-content: flex-end; /* 오른쪽 정렬 */
 }
 
-/* Chat log styles */
+/* 채팅 스타일 */
 .chat-log {
   height: 300px;
   overflow-y: auto;
@@ -62,7 +62,7 @@ body {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-/* User input styles */
+/* 유저 입력 스타일 */
 .user-input {
   display: flex;
   align-items: center;
