@@ -1,3 +1,4 @@
+# 증상에 따라 약 처방을 해주는 AI챗봇 서비스
 https://ljt528.github.io/Project_ChatGPT/
 
 # Project_ChatGPT
